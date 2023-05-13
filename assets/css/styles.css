@@ -8,10 +8,14 @@
 
 /* Colors */
 
+body{
+  background-color: beige;
+}
+
 :root {
-  --first-color: #4070f4;
+  --first-color: #f44070;
   --second-color: #0e2431;
-  --gardient-color: linear-gradient(to right, #5001fb, #8e0af3);
+  --gardient-color: linear-gradient(to right, #fb019f, #f3400a);
 }
 
 /* FONT STYLE */
@@ -358,21 +362,6 @@ img {
 
 .work_container {
   row-gap: 2rem;
-}
-
-.work_img {
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
-  overflow: hidden;
-}
-
-.work_img img {
-  transition: 1s;
-  cursor: pointer;
-}
-
-.work_img img:hover {
-  transform: scale(1.1);
 }
 
 /* Contact */
